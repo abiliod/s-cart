@@ -89,7 +89,6 @@ class FrontController extends RootFrontController
                     'provider'    => $dataMap['provider'],
                     'provider_id' => $dataMap['provider_id'],
                     'address1'    => $dataMap['address1'],
-                    'email_verified_at' => \ Carbon \ Carbon :: now (),
                 ]);
 
                 $dataAddress = [
